@@ -5,13 +5,13 @@ class TreeNode:
         self.data = data
 
 # constructing the tree (bottom up)
-'''
+"""
        0
       / \
      1   2
     / \ / \
    3  4 5  6
-'''
+"""
 six = TreeNode(data=6)
 five = TreeNode(data=5)
 four = TreeNode(data=4)
