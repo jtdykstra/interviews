@@ -24,3 +24,20 @@ print("'a'.isdigit() " + str('a'.isdigit()))
 print("'a'.isalpha() " + str('a'.isalpha()))
 print("string.hexdigits " + string.hexdigits)
 print("string.ascii_letters " + string.ascii_letters)
+
+def stringCharReplacement():
+    s = 'abc'
+    print("s: " + s)
+    print("s[:1] + '-' + s[2:]: " + (s[:1] + '-' + s[2:]))
+print("char replacement")
+stringCharReplacement()
+
+def stringBuilder():
+    s = [c for c in 'abc'] 
+    print("s: " + str(s))
+    print("s[1] = '|'")
+    s[1] = '|'
+    print("s: " + str(s))
+    print("\'\'.join(s): " + ''.join(s))
+print("string builder")
+stringBuilder()
