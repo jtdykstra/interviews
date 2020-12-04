@@ -10,4 +10,14 @@ def orderedDict():
     print("move key 1 to end " + str(od))
     od.popitem(last=False)
     print("pop first item " + str(od))
+
+def dictProperties():
+    d = {'a':1,'b':2,'c':3}
+
+    print("d is {}".format(d))
+    print("d.keys() {}".format(d.keys()))
+    print("d.values() {}".format(d.values()))
+    print("d.items() {}".format(d.items()))
+
 orderedDict()
+dictProperties()
